@@ -8,7 +8,7 @@ const matches = fs.readFileSync('football.csv', {
         return row.split(',')
     })
 
-//Enum is an object that stores closely related values
+//Enum is an object that stores closely related values.
 enum MatchResult {
     HomeWin = 'H',
     AwayWin = 'A',
