@@ -2,7 +2,7 @@ import { CsvFileReader } from './CsvFileReader';
 
 const reader = new CsvFileReader('football.csv');
 reader.read()
-//Enum is an object that stores closely related values.
+//Enum is an object that stores closely related values
 enum MatchResult {
     HomeWin = 'H',
     AwayWin = 'A',
@@ -21,5 +21,5 @@ for (let match of reader.data) {
     }
 }
 
-console.log(`Man United won ${manUnitedWins} games!`)
+console.log(`Man United won ${manUnitedWins} games this season`)
 
