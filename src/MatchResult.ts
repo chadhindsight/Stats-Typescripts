@@ -1,6 +1,6 @@
-// // enum - enumeration. This enum will be used elsewhere
-// export enum MatchResult {
-//     HomeWin = 'H',
-//     AwayWin = 'A',
-//     Draw = 'D'
-// }
+// enum - enumeration. This enum will be used elsewhere
+export enum MatchResult {
+    HomeWin = 'H',
+    AwayWin = 'A',
+    Draw = 'D'
+}
