@@ -1,21 +1,22 @@
-import fs from 'fs';
-// import dateStringToDate from './utils'
+// import fs from 'fs';
+// import { MatchResult } from './MatchResult';
+// // import dateStringToDate from './utils'
 
-export class CsvFileReader {
-    data: string[][] = [];
+// export class CsvFileReader {
+//     data: string[][] = [];
 
-    constructor(public filename: string) { }
+//     constructor(public filename: string) { }
 
-    read(): void {
-        this.data = fs
-            .readFileSync(this.filename, {
-                encoding: 'utf-8'
-            })
-            .split('\n')
-            .map(
-                (row: string): string[] => {
-                    return row.split(',');
-                }
-            )
-    }
-}
+//     read(): void {
+//         this.data = fs
+//             .readFileSync(this.filename, {
+//                 encoding: 'utf-8'
+//             })
+//             .split('\n')
+//             .map(
+//                 (row: string): string[] => {
+//                     return row.split(',');
+//                 }
+//             )
+//     }
+// }
