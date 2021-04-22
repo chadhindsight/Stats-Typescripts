@@ -8,7 +8,7 @@ interface DataReader {
     read(): void;
     data: string[][];
 }
-
+// READ MATCHES
 export class MatchReader {
     static fromCsv(filename: string): MatchReader {
         return new MatchReader(new CsvFileReader(filename));
